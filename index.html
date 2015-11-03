@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: rgb(0, 0, 0);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: avenir;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(200, 0, 0);
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                font-family: bebas neue;
+                font-size: 36px;
+               letter-spacing: 2px;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 255, 255);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+               
+            }
+            [class=sidebar] img {
+                width: 200px;
+                border-radius: 100px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <title>The Westerman Empire</title>
+
+    <body>
+        <div id="all-contents"> 
+            <nav>
+  
+                <header>The Westerman Empire</header>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href= "index.html">portfolio</a></li>
+                </ul>
+            </nav>
+           
+
+            <main>
+                 <div class="sidebar">
+                     <img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-frc3/t31.0-8/1272578_10151653539522765_1487509297_o.jpg">
+                     
+                </div>
+
+                <div class="content">
+                    <header>
+                        Hannah Westerman
+                    </header>
+                    <p>Graphic Guru</p>
+                     <section class="interests">
+                        <header>Creations</header>
+                        <ul>
+                            <li>Graphics</li>
+                            <li>By Hand</li>
+                            <li>Photography</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
